@@ -13,16 +13,12 @@ def int_to_roman(num):
 
     for i in range(len(decimal_list)):
         
-        while decimal_list[i] < num:
-            num == num - decimal_list[i]
+        while decimal_list[i] <= num:
+            num = num - decimal_list[i]
 
             roman_letter_output += letter_list[i]
     
     return roman_letter_output
-
-int_to_roman()
-
-
 
     
 
