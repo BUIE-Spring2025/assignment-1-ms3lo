@@ -14,7 +14,8 @@ def int_to_roman(num):
     for i in range(len(decimal_list)):
         
         while decimal_list[i] < num:
-            
+            num == num - decimal_list[i]
+
 
 
 
