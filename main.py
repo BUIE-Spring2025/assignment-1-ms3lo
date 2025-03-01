@@ -7,19 +7,16 @@ def int_to_roman(num):
     """
     letter_list = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I']
     decimal_list = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
-    # total_decimal = 0
 
 
+    roman_letter_output = ''
+
+    for i in range(len(decimal_list)):
+        
+        while decimal_list[i] < num:
+            
 
 
-    # for i in range(num):
-    #   total_decimal += 1
-
-    # if total_decimal == 4:
-    #    th = num[0]
-    #    hnd = num[1]
-    #    ten = num[2]
-    #     one = num[3]
 
 
     
